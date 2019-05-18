@@ -1,4 +1,4 @@
-LICENSE.md
+UCI Math 110B License
 
 
 
