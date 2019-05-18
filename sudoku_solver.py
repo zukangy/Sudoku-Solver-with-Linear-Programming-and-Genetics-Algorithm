@@ -496,7 +496,7 @@ def clue_constraint(input_quiz, N=9):
     return CLUE
 
 # get the constraint matrix from clue.
-A1 = clue_constraint(quiz)
+
 
 # Formulate the matrix A and vector B (B is all ones).
 A = scs.vstack((A0,A1))
