@@ -10,10 +10,10 @@ import random as rd
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 
 import os
-print(os.listdir("C:/Users/Ziru Yan/PycharmProjects/Project_1/venv/input"))
+
 
 # read the data in small1.csv, it only has 24 problems.
-data = pd.read_csv("C:/Users/Ziru Yan/PycharmProjects/Project_1/venv/input/small1.csv")
+
 print('data set legnth:', len(data))
 
 # enumerate the first 5 data strings in quizzes
@@ -596,7 +596,7 @@ def modify(single):
 import time
 
 # We test the following algoritm on small data set.
-data = pd.read_csv("C:/Users/Ziru Yan/PycharmProjects/Project_1/venv/input/large1.csv")
+
 
 corr_cnt = 0
 start = time.time()
