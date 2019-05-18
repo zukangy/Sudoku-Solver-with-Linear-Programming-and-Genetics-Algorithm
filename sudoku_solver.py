@@ -14,21 +14,6 @@ import os
 
 # read the data in small1.csv, it only has 24 problems.
 
-print('data set legnth:', len(data))
-
-# enumerate the first 5 data strings in quizzes
-print(data["quizzes"][0:5])
-
-# enumerate the first 5 corresponding solution strings.
-print(data["solutions"][0:5])
-
-# Each string is an 81-chartacter string of digits. '0' means empty slots in the problem.
-
-# Take a close look at one string in quizzes
-
-quiz = data["quizzes"][9]
-print(quiz, '\ndata type is:', type(quiz))
-
 # we can turn it into a numpy array by the following
 np.reshape([int(c) for c in quiz], (9,9))
 
@@ -603,11 +588,6 @@ start = time.time()
 
 random_seed = 42
 np.random.seed(random_seed)
-
-if len(data) > 1000:
-    samples = np.random.choice(len(data), 1000)
-else:
-    samples = range(len(data))
 
 
 #for i in range(len(samples)):
