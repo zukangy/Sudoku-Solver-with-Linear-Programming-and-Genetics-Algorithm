@@ -499,8 +499,6 @@ def clue_constraint(input_quiz, N=9):
 
 
 # Formulate the matrix A and vector B (B is all ones).
-A = scs.vstack((A0,A1))
-B = np.ones((np.size(A, 0)))
 
 
 def evaluate(Lst):
