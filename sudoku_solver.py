@@ -15,7 +15,6 @@ import os
 # read the data in small1.csv, it only has 24 problems.
 
 # we can turn it into a numpy array by the following
-np.reshape([int(c) for c in quiz], (9,9))
 
 #GA
 
